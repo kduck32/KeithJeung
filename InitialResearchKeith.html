@@ -15,6 +15,42 @@
 <body>
 <!-- STEP TWO: CUSTOMIZE THE LOOK-->
 <!-- Make adjustments to the display size, text color, background color, border, text alignment, etc... -->
+
+<nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PeePee PooPoo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Research.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Research
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="InitialResearchKeith.html">Initial Research</a></li>
+            <li><a class="dropdown-item" href="CaseStudyKeith.html">Case Study</a></li>
+            <li><a class="dropdown-item" href="RootCausesKeith.html">Root Causes</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="bg-info bg-gradient" style="--bs-bg-opacity: .2;">
 <!-- Use 4 different types of bootstrap classes -->
 <!-- The best way to do this is to search using the navbar. Put in a term OR a class tag -->
 <!-- A few pages that should be helpful to start out with.... 
@@ -25,26 +61,28 @@
 <!-- To begin to understand how the following "grid" works, check out this link. This is the code we have below
 https://getbootstrap.com/docs/5.2/layout/grid/#equal-width  -->
     <div class="row">
-      <div class="col">
+      <div class="col text-success">
         Problem statement
       </div>
-      <div class="col">
+      <div class="col text-success">
         Need statement
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col text-success">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates expedita ipsam nisi maiores totam dolor ab aspernatur, impedit debitis quod dolore odio, odit sed quasi, eligendi natus placeat accusantium sint!
       </div>
-      <div class="col">
+      <div class="col text-success">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit libero quaerat. Obcaecati a itaque accusantium, maiores delectus debitis voluptas dolor magnam optio repudiandae pariatur vel libero perferendis voluptatum exercitationem!
       </div>
-      <div class="col">
+      <div class="col text-success">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam inventore doloremque odio necessitatibus nesciunt sit itaque quos magnam non. Recusandae perspiciatis voluptatem voluptatum veniam sed reprehenderit molestiae repudiandae qui atque?
       </div>
     </div>
   </div>
+</div>
 <!-- Add the bootstrap script down here -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 </html>
