@@ -11,7 +11,12 @@
 <!-- Change the title to include your name!-->
     <title>Keith's Initial Research</title>
 </head>
-
+<style>body {
+  background-image: url('https://journalistsresource.org/wp-content/uploads/2022/06/artificial-intelligence-g55ddc4275_1920.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}</style>
 <body>
 <!-- STEP TWO: CUSTOMIZE THE LOOK-->
 <!-- Make adjustments to the display size, text color, background color, border, text alignment, etc... -->
@@ -57,32 +62,33 @@
   Use https://getbootstrap.com/docs/5.2/content/typography/ to adjust the display (size, etc)
   Use https://getbootstrap.com/docs/5.2/customize/color/ to adjust color attributes 
   (there's also different pages with background color, opacity, etc )-->  
+  <br>
 <div class="container text-center">
 <!-- To begin to understand how the following "grid" works, check out this link. This is the code we have below
 https://getbootstrap.com/docs/5.2/layout/grid/#equal-width  -->
 <div class="row">
-  <div class="col border border-5 text-success bg-info bg-gradient" style="--bs-bg-opacity: .2;"> 
+  <div class="col border border-5 border-dark bg-info bg-gradient" style="--bs-bg-opacity: .8;"> 
       <h1>Problem statement</h1>
         <p> Many minorities are experiencing racism due to overrepresentation or underrespresentation in many data sets that cause AI to inherit human bias</p>
       </div>
       
-      <div class="col border border-5 text-success bg-danger bg-gradient" style="--bs-bg-opacity: .4;">
+      <div class="col border border-5 bg-danger bg-gradient border-dark" style="--bs-bg-opacity: .8;">
         <h1>Need Statement</h1>
         <p>Create new unbiased algorithms that have not been affected by any previous racial bias from it's creators or society as a whole.</p>
       </div>
     </div>
-    
-    <div class="row border border-5">
-      <div class="col text-success">
+    <br>
+    <div class="row border border-5 border-dark bg-warning" style="--bs-bg-opacity: .8;">
+      <div class="col">
         <li>It is very easy to accidently to make an AI biased. For example some AI trained using public data from the internet inherited the racial bias. A possible solution is to teach the AI to differentiate between the racist data sets, but this is just telling AI who to not emulate. Even when using nuanced data sets to mitigate this problem as there are other factors that can make AI less capable of carrying out their duties.</li>
       <p><a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">Machine bias risks</a> </p>
       </div>
 
-      <div class="col text-success">
+      <div class="col">
         <li>AI is also unable to understand real world implications as it processes data mostly as numerical values. For example some companies that use AI to assist in the hiring process lose out on good applicants, because the AI sometimes associates the applicant with a crime-ridden neighborhood. Also it is difficult to understand most machine learning algorithms, so making it hard to fix the problem in the AI. </li>
         <p><a href="https://www.weil.com/~/media/mailings/2020/q3/employer-update_september-2020.pdf">Employment and AI</a> </p>
       </div>
-      <div class="col text-success">
+      <div class="col">
         <li>It is possible to explicitly train AI to recognize race as an input in a program by creating a General Adversarial Network; thus eliminating any human bias it might have inherited. However this may harm to any groups that have genuine correlations to their data sets, making our new "anti racist" AI harmful</li>
     <br><br>
         <p><a href="https://www.nytimes.com/2020/12/29/technology/facial-recognition-misidentify-jail.html">How AI is harmful</a></p>
